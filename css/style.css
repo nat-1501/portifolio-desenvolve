@@ -302,7 +302,8 @@ span::after {
     flex-wrap: wrap;
     flex-direction: column;
     width: 75.125rem;
-    margin: 6.25rem auto;
+    margin: 6.25rem ;
+    
 }
 
 .sobre img {
@@ -317,6 +318,7 @@ span::after {
     color: var(--cinza_titulo);
     font-weight: 700;
     margin-bottom: 2.125rem;
+    
 }
 
 .sobre-descricao {
@@ -338,10 +340,8 @@ span::after {
     height: 12.25rem;
     left: 48.1875rem;
     padding: 40px 165px 40px 40px;
-    text-align: left;
-    position: absolute;
     margin-top: 600px;
-    float: right;
+   
 }
 
 .titulo-contatos {
@@ -361,6 +361,7 @@ span::after {
     line-height: 1.6875rem;
     letter-spacing: 0.024107125rem;
     margin-bottom: 1.25rem;
+    white-space: nowrap;
 }
 
 .descricao-contatos {
@@ -373,7 +374,8 @@ span::after {
     width: 32rem;
     height: 6.75rem;
     margin-top: 60px;
-    margin-bottom: 6.25rem;
+    margin-bottom: 16.25rem;
+    
        
 }
 

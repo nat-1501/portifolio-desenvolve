@@ -105,7 +105,10 @@
     }
 
     .periodo {
-        font-size: 1rem;
+        font-size: 0.9 rem;
+        line-height: 1.9;
+        white-space: nowrap;
+
     }
 
     .empresa {
@@ -138,7 +141,7 @@
     .projetos {
         display: flex;
         width: 17.75rem;
-        margin-top: 0rem;
+        margin-top: 3rem;
         margin-bottom: 0rem;
     }
 
@@ -250,11 +253,13 @@
     }
 
     .descricao-contatos{
-       width: 17.75rem;
-       
-        font-size: 1rem;
-        
         text-align: center;
+        font-size: 1rem;
+       margin-top: 20rem;
+        width: 17.75rem;
+    
+      
+
     } 
 
     .texto2 {
@@ -271,5 +276,5 @@
         text-align: center;
     }
 
-    }
+}
 
