@@ -50,9 +50,8 @@
         position: absolute;
     }
 
-    .box, .linha-vertical {
+    .separador{
         display: none;
-        visibility: hidden;
     }
 
     .titulo {
@@ -75,26 +74,6 @@
     
     }
 
-    .container-icone {
-        display: flex;
-        justify-content: space-around;
-        padding: 0;
-        margin-top: 1.5rem;
-        margin-bottom: 2rem;
-    }
-
-    .lista-icone {
-        display: flex;
-        justify-content: space-around;
-        margin: 0;
-        padding: 0;
-    }
-
-    .icone-imagem{
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-
     .botao-download {
         display: flex;
         width: 18.75rem;
@@ -106,40 +85,55 @@
         position: inherit;
     }
 
-    .experiencias {
+    .secao_experiencia {
         width: 17.75rem;
         margin-top: 2.25rem;
+        display: flex;
+
     }
 
-    .experiencias h1 {
+    .secao_experiencia h2{
         font-size: 2.8rem;
         line-height: 7.5rem;
-        color: var(--cinza-titulos);
+        color: var(--cinza_titulo);
         font-weight: 700;
     }
 
-    .experiencia-empresa {
+    .nome {
         font-size: 1.5rem;
+        
     }
 
-    .experiencia-data {
+    .periodo {
         font-size: 1rem;
     }
 
-    .container-empresa {
+    .empresa {
         margin-top: 0rem;
     }
 
-    .experiencias-job {
-        width: 18.75rem;
-        margin-top: 0rem;
-    }
-
-    .experiencia-descricao {
-        font-size: 1rem;
+    
+    .desc_text {
+        font-size: 0.9rem;
         margin-top: 1rem;
         margin-bottom: 2.25rem;
+        margin-left: 1rem;
+        
     }
+
+    .linguagem {
+    display: flex;
+
+}
+.ling {
+    font-size: .6rem;
+    padding: 0.4rem 0.5rem;
+    margin: 0.2rem 1rem 0 0;
+    background: var(--cinza-footer);
+    border-radius:1rem;
+   
+
+}
 
     .projetos {
         display: flex;
@@ -220,37 +214,30 @@
         margin-top: 5rem;
     }
 
-    .projeto-quatro {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 17.75rem;
-        align-items: center;
-        margin-top: 5rem;
-    }
 
-    .sobre-mim{
+    .sobre{
         width: 20.75rem;
         margin-top: 3rem;
     }
 
-    .sobre-mim h1 {
+    .sobre h1 {
         margin-left: 1.125rem;
         font-size: 2.8rem;
         line-height: 7.5rem;
         margin-bottom: 0rem;
     }
 
-    .sobre-descricao {
-        width: 19.75rem;
-        height: auto;
+    .sobre-descricao{
+        width: 17.75rem;
+       
         font-size: 1rem;
-        margin: auto;
+        
         text-align: center;
     }
 
-    .sobre-mim img {
-        width: 5rem;
-        height: 13rem;
+    .sobre img {
+        width: 1rem;
+        height: 10rem;
         display: none;
     }
 
@@ -262,11 +249,21 @@
     
     }
 
-    .descricao-meus-contatos {
-        width: auto;
+    .descricao-contatos{
+       width: 17.75rem;
+       
         font-size: 1rem;
+        
         text-align: center;
-    }
+    } 
+
+    .texto2 {
+         width: 17.75rem;
+       
+        font-size: 1rem;
+        
+        text-align: center;
+    }  
 
     footer {
         height: 8rem;
