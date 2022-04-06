@@ -401,6 +401,17 @@ span::after {
     margin-top: 1.25rem;
 
 }
+
+.assinatura {
+    font-family: Dancing script;
+    font-size: 3rem;
+    font-weight:300;
+    color: var(--cinza-textos);
+    margin-top: 2rem;
+    margin-left: 2rem;
+    letter-spacing: 0.1rem;
+}
+
 .rodape {
     display: flex;
     flex-direction: column;

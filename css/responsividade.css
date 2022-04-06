@@ -249,16 +249,16 @@
         margin-top: 3.125rem;
         width: 7.5rem;
         height: 13rem;
+        white-space: nowrap;
     
     }
 
     .descricao-contatos{
         text-align: center;
         font-size: 1rem;
-       margin-top: 20rem;
+       margin-top: 25rem;
         width: 17.75rem;
-    
-      
+
 
     } 
 
@@ -268,6 +268,7 @@
         font-size: 1rem;
         
         text-align: center;
+        margin-top: 10rem;
     }  
 
     footer {
