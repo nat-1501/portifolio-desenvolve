@@ -25,6 +25,18 @@
 - CSS
 - responsiveness
 
+### 🎲 Running on your machine ###
+
+```bash
+# Clone this repository
+$ git clone https://github.com/nat-1501/portifolio-develop.git
+
+# Access the project folder in terminal/cmd
+$ cd portfolio-development
+
+# Click on index.html and the browser will open automatically
+
+```
 
                                                           
 > Link to view the portfolio: https://nat-1501.github.io/portifolio-desenvolve/                                                           
