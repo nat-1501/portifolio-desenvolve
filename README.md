@@ -20,12 +20,12 @@
                                                           
   
 ## What was used
- 
-- HTML 
+ - HTML 
 - CSS
 - responsiveness
 
-### 🎲 Running on your machine ###
+
+## 🎲 Running on your machine ##
 
 ```bash
 # Clone this repository
@@ -41,5 +41,5 @@ $ cd portfolio-development
                                                           
 > Link to view the portfolio: https://nat-1501.github.io/portifolio-desenvolve/                                                           
   
-
-
+---
+### Made with ❤️ by Natali Soares 👋🏽 Get in touch! ###
