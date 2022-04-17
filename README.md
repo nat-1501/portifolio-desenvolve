@@ -29,10 +29,10 @@
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/nat-1501/portifolio-develop.git
+$ git clone https://github.com/nat-1501/portifolio-desenvolve.git
 
 # Access the project folder in terminal/cmd
-$ cd portfolio-development
+$ cd portfolio-desenvolve
 
 # Click on index.html and the browser will open automatically
 
